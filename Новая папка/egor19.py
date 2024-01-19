@@ -152,12 +152,12 @@ while play:
     screen.blit(head_snake, head_rect)
     screen.blit(apple, apple_rect)
     screen.blit(mushroom, mushroom_rect)
-    if score >= 1:
+    '''if score >= 1:
         mushroom_1, mushroom_rect_1 = mashrooms()
         screen.blit(mushroom_1, mushroom_rect_1)
     if score >= 2:
         mushroom_2, mushroom_rect_2 = mashrooms()
-        screen.blit(mushroom_2, mushroom_rect_2)
+        screen.blit(mushroom_2, mushroom_rect_2)'''
 
     for segment in snake[1:]:
         screen.blit(body_snake, segment)
